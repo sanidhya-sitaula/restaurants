@@ -1,11 +1,8 @@
 .App {
   text-align: center;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -13,26 +10,32 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.container{
+  margin-left:4%; 
+  margin-right:4%;
+  margin-top:1%;
+  font-family: 'Quicksand';
+
 }
 
-.App-link {
-  color: #61dafb;
+.rest-content{
+  margin-top:4%;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title{
+  text-align: center;
+}
+
+.map{
+  margin-top: 5%;
+}
+
+Link {
+  text-decoration: None;
+}
+
+.searchResults{
+  margin-top : 5%;
 }
